@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+/*header*/
+.headder-banner{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 200px 200px 300px; 
+    background-size:contain;
+}
+.headder-banner-title{
+    color: #FFFFFF;
+    font-size:55px;
+    font-weight: 700px;
+    margin-bottom:40px;
+
+}
+.headder-banner-des{
+    color: #FFFFFF;
+    margin-bottom:40px;
+    line-height: 25px;
+}
+.headder-banner-btn{
+    background-color: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+/*main section*/
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.myfailure{l
+    text-align: left: ;;
+    margin: auto 0px;
+}
+p span{
+    color: green;
+}
+.myfailure-step{
+    color: #444343;
+    margin-bottom:5px;
+}
+.myfailure-cont{
+    display: flex;
+    gap: 50px;
+}
+.myfailure-title{
+    margin-bottom: 25px;
+    font-weight: 700px;
+    font-size: 40px;
+}
+.myfailure-des{
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: #444343;
+}
+.My-skills{
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+}
+.My-Plans-title{
+    text-align: center;
+    margin: 130px 0px 50px 0px;
+}
+
+/*my akills*/
+.My-skills-title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.My-skills-img{
+    margin-bottom: 30px;
+}
+.My-skills-des{
+    color: #737272;
+}
+.My-skills-containt{
+    text-align: center;
+}
+
+/*watch-img-containt*/
+.watch-img-containt{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(../images/watch.png);
+    padding: 80px 100px 100px 100px;
+    background-repeat: no-repeat;
+
+}
+.watch-img-btn{
+    padding: 15px 25px;
+    border: 0px;
+    border-radius: 8px;
+}
+.watch-img-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: ;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+footer{
+    background-color: black;
+    padding: 100px 0px;
+}
+.footer-containt{
+    display: flex;
+    max-width: 1100px;
+    margin: 0px auto;
+    gap: 50px;
+    justify-content: space-between;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.footer-des{
+    color: #FFFFFF;
+}
+.footer-link{
+    margin-top: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-input{
+    padding: 15px 50px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+.footer-btn{
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+.footer-btn-inpu{
+    
+}
