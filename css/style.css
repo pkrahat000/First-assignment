@@ -35,6 +35,43 @@ main{
     max-width: 1100px;
     margin: 0px auto;
 }
+
+/*About me*/
+.about{
+    display: flex;
+    gap: 40px;
+}
+.about-contant{
+    margin: auto 0px;
+}
+.about-head{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700px;
+    padding-top: 80px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.about-main{
+    background-color: #e6e1e1;
+    padding-left:80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    box-shadow: 15px 10px #c2bfbf;
+}
+.about-des{
+    color: #444343;
+    padding-top: 30px;
+    line-height: 25px;
+}
+.about-img{
+    background-color: #444343;
+    border-radius: 50%;
+    border: 5px solid rgb(253, 251, 142);
+}
 .myfailure{l
     text-align: left: ;;
     margin: auto 0px;
@@ -86,17 +123,17 @@ p span{
     text-align: center;
 }
 
-/*watch-img-containt*/
+/*watch-img-containt*//*background-blend-mode proparty use hoic*/
 .watch-img-containt{
     margin-top: 100px;
     margin-bottom: 100px;
-    background-image: url(../images/watch.png);
     padding: 80px 100px 100px 100px;
+    background-image: linear-gradient(to right, blue , black), url(../images/watch.png);
+    background-blend-mode:screen;
     background-repeat: no-repeat;
-
 }
 .watch-img-btn{
-    padding: 15px 25px;
+    padding: 8px 25px;
     border: 0px;
     border-radius: 8px;
 }
